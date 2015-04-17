@@ -1,0 +1,15 @@
+Package: Gistic2GE
+Type: Package
+Title: R scripts for integrative analysis of somatic copy number variation data (GISTIC2) and gene expression data
+Version: 1.0
+Date: 2015-04-07
+Author: Amy Li
+Maintainer: Amy Li <ajli@bu.edu>
+Description: Gistic2GE is a tool for running differential expression analysis for gene expression integratived with copy number variation data (output from GISTIC2). It also performs pathway enrichment analysis for significantly differentially expressed genes with respect to sample alteration status
+URL: https://github.com/lia978/Gistic2GE
+Depends:
+    R (>= 2.11.0),
+    Biobase,
+    limma
+License: Boston University
+LazyData: true
